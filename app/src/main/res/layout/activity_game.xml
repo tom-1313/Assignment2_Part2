@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="395dp"
+        android:layout_height="390dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:columnCount="5"
+        android:orientation="vertical"
+        android:rowCount="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/button0"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button10"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button15"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button20"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button11"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button16"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button21"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button7"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button12"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button17"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button22"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button8"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button13"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button18"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button23"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button9"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button14"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button19"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/button24"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_margin="1dp"
+            android:background="@color/black"
+            android:onClick="onButtonClick"
+            android:src="@drawable/dash"
+            android:text="" />
+
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/user_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:text="User name:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBaseline_toBaselineOf="@+id/userName_textView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/userName_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="210dp"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/user_textView" />
+
+    <TextView
+        android:id="@+id/win_message_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="205dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="133dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:onClick="onResetButton"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/win_imageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/reset_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/win_imageView2" />
+
+    <ImageView
+        android:id="@+id/win_imageView2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginEnd="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/reset_button"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
